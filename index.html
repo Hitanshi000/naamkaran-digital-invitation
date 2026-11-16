@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Naamkaran Invitation</title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================================
+         AUDIO
+    ====================================================== -->
+
+    <audio
+        id="bell"
+        src="assets/audio/bell.mp3"
+        preload="auto">
+    </audio>
+
+    <audio
+        id="vakratunda"
+        src="assets/audio/vakratunda.mp3"
+        preload="auto">
+    </audio>
+
+    <audio
+        id="flute"
+        src="assets/audio/flute.mp3"
+        preload="auto"
+        loop>
+    </audio>
+
+
+
+    <!-- =====================================================
+         PAGE 1 — GANESHA
+    ====================================================== -->
+
+    <section
+        id="welcome"
+        class="screen active"
+    >
+
+        <div class="welcome-content">
+
+
+            <div class="om-symbol">
+                ॐ
+            </div>
+
+
+            <button
+                id="enterBtn"
+                class="ganesha-button"
+                type="button"
+                aria-label="Begin invitation"
+            >
+
+                <img
+                    src="assets/images/ganesha.png"
+                    alt="Lord Ganesha"
+                    class="ganesha-image"
+                >
+
+            </button>
+
+
+            <p class="mantra">
+
+                ॥ वक्रतुण्ड महाकाय
+                सूर्यकोटि समप्रभ ॥
+
+                <br>
+
+                ॥ निर्विघ्नं कुरु मे देव
+                शुभ कार्येषु सर्वदा ॥
+
+            </p>
+
+
+            <p class="mantra-english">
+                Vakratunda Mahakaya
+            </p>
+
+
+            <p class="tap-text">
+                Tap Lord Ganesha to begin
+            </p>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         PAGE 2 — SHIV PARIVAR COVER
+    ====================================================== -->
+
+    <section
+        id="cover"
+        class="screen"
+    >
+
+        <div class="cover-container">
+
+
+            <!-- LEFT SIDE -->
+
+            <div class="cover-panel left">
+
+                <div class="left-decoration">
+                    ॐ
+                </div>
+
+
+                <img
+                    src="assets/images/shivparivar.jpg"
+                    alt="Shiv Parivar"
+                    class="shivparivar-image"
+                >
+
+            </div>
+
+
+
+            <!-- RIGHT SIDE -->
+
+            <div class="cover-panel right">
+
+                <div class="cover-content">
+
+
+                    <p class="cover-small">
+                        शुभ एवं मंगलमय
+                    </p>
+
+
+                    <h1>
+                        Naamkaran
+                    </h1>
+
+
+                    <p class="cover-subtitle">
+                        S A N S K A R
+                    </p>
+
+
+                    <!-- NAZAR BATTU -->
+
+                    <img
+                        src="assets/images/nazabattu.jpg"
+                        alt="Nazar Battu"
+                        class="nazarbattu-image"
+                    >
+
+
+                    <!-- OPEN SEAL -->
+
+                    <button
+                        id="openBtn"
+                        class="open-seal"
+                        type="button"
+                    >
+                        OPEN
+                    </button>
+
+
+                    <p class="open-label">
+                        OPEN INVITATION
+                    </p>
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         PAGE 3 — INVITATION
+    ====================================================== -->
+
+    <section
+        id="invitation"
+        class="screen"
+    >
+
+        <div class="invitation-container">
+
+
+            <!-- INVITATION IMAGE -->
+
+            <img
+                src="assets/images/invitation.png"
+                alt="Naamkaran Invitation"
+                class="invitation-image"
+            >
+
+
+            <!-- ACTION BUTTONS -->
+
+            <div class="invitation-actions">
+
+
+                <!-- VENUE -->
+
+                <a
+                    href="YOUR_GOOGLE_MAPS_LINK"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="action-button"
+                >
+                    📍 VIEW VENUE
+                </a>
+
+
+                <!-- CONTACT -->
+
+                <a
+                    href="tel:YOUR_PHONE_NUMBER"
+                    class="action-button"
+                >
+                    ☎ CONTACT
+                </a>
+
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         JAVASCRIPT
+    ====================================================== -->
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
